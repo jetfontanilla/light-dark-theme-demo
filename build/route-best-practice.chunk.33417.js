@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{J38g:function(t,s){"use strict";s.a={main:"main__1ltXQ"}},Lagm:function(t,s,i){"use strict";i.r(s),function(t){var n=i("J38g");s.default=function(){return t("div",{class:n.a.main},t("ul",null,t("li",null,"Always treat Light mode as default. Systems that don't support themes will fall back to Light mode"),t("li",null,"Avoid inlining styles, use classes instead. It is easier to manage the theming with CSS classes")))}}.call(this,i("hosL").h)}}]);
+//# sourceMappingURL=route-best-practice.chunk.33417.js.map
