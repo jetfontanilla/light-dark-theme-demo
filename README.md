@@ -1,6 +1,12 @@
-# css-color-scheme
+# Light / Dark Theme Demo
 
-demo for CSS prefers-color-scheme brownbag for @englishcentral
+demo for implementing Light/Dark theme using CSS prefers-color-scheme or JS 
+
+made as a brown bag topic for for @englishcentral
+
+<a href="https://preactjs.com" target="_blank">
+
+</a>
 
 ## CLI Commands
 
@@ -22,3 +28,5 @@ npm run test
 ```
 
 For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
+
+[![Preact](https://i.imgur.com/YqCHvEW.gif)](https://preactjs.com)
