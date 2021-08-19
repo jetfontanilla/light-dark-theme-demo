@@ -7,7 +7,7 @@ import Home from "../routes/home";
 import Demo from "../routes/demo";
 import BestPractice from "../routes/best-practice";
 import { useThemes } from "./useThemes";
-import style from "./style.css";
+import "./style.css";
 
 const App = () => {
 	const [toggleTheme, isThemeReady, isDarkMode] = useThemes();

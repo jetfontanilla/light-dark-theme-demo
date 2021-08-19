@@ -1,5 +1,43 @@
-.profile {
-	padding: 56px 20px;
-	min-height: 100%;
+.main {
+	padding: 3em;
 	width: 100%;
+}
+
+.primary {
+	color: #512e8e;
+}
+
+:global(.dark) .primary {
+	color: #f8f834;
+}
+
+.secondary {
+	color: #9b89b9;
+}
+
+:global(.dark) .secondary {
+	color: #cfb7f1;
+}
+
+.paletteSection {
+	display: flex;
+	align-items: center;
+}
+
+.palette {
+	font-size: 3.5em;
+}
+
+.beach {
+	min-height: 300px;
+	background: url(./day-bg.png) no-repeat right;
+	background-size: 450px auto;
+}
+
+:global(.dark) .beach {
+	background-image: url(./night-bg.png);
+}
+
+.cat {
+
 }

@@ -1,31 +1,14 @@
-import { h } from 'preact';
-import {useEffect, useState} from "preact/hooks";
-import style from './style.css';
+import style from "./style.css";
 
-// Note: `user` comes from the URL, courtesy of our router
-const BestPractice = ({ user }) => {
-	const [time, setTime] = useState(Date.now());
-	const [count, setCount] = useState(10);
-
-	useEffect(() => {
-		let timer = setInterval(() => setTime(Date.now()), 1000);
-		return () => clearInterval(timer);
-	}, []);
-
+const BestPractice = () => {
 	return (
-		<div class={style.profile}>
-			<h1>Profile: {user}</h1>
-			<p>This is the user profile for a user named { user }.</p>
-
-			<div>Current time: {new Date(time).toLocaleString()}</div>
-
-			<p>
-				<button onClick={() => setCount((count) => count + 1)}>Click Me</button>
-				{' '}
-				Clicked {count} times.
-			</p>
+		<div class={style.main}>
+			<ul>
+				<li>Always treat Light mode as default. Systems that don't support themes will fall back to Light mode</li>
+				<li>Avoid inlining styles, use classes instead. It is easier to manage the theming with CSS classes</li>
+			</ul>
 		</div>
 	);
-}
+};
 
 export default BestPractice;

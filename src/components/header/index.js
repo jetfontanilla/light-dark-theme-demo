@@ -1,6 +1,5 @@
-import { h } from 'preact';
-import { Link } from 'preact-router/match';
-import style from './style.css';
+import { Link } from "preact-router/match";
+import style from "./style.css";
 import Toggle from "../toggle";
 import githubLight from "./github-light.png";
 import githubDark from "./github-dark.png";

@@ -1,31 +1,22 @@
-import { h } from 'preact';
-import {useEffect, useState} from "preact/hooks";
-import style from './style.css';
+import style from "./style.css";
 
-// Note: `user` comes from the URL, courtesy of our router
-const Demo = ({ user }) => {
-	const [time, setTime] = useState(Date.now());
-	const [count, setCount] = useState(10);
-
-	useEffect(() => {
-		let timer = setInterval(() => setTime(Date.now()), 1000);
-		return () => clearInterval(timer);
-	}, []);
+const Demo = () => {
 
 	return (
-		<div class={style.profile}>
-			<h1>Profile: {user}</h1>
-			<p>This is the user profile for a user named { user }.</p>
-
-			<div>Current time: {new Date(time).toLocaleString()}</div>
-
-			<p>
-				<button onClick={() => setCount((count) => count + 1)}>Click Me</button>
-				{' '}
-				Clicked {count} times.
-			</p>
+		<div class={style.main}>
+			<section class={style.beach}>
+				<h1 class={style.primary}>Primary text</h1>
+				<h3 class={style.secondary}>Secondary text</h3>
+				<p>Regular Text</p>
+			</section>
+			<section class={style.paletteSection}>
+				<span>Color Theme Palette:</span>
+				<span class={`${style.palette} ${style.primary}`}>&#x025FC;</span>
+				<span class={`${style.palette} ${style.secondary}`}>&#x025FC;</span>
+				<span class={style.palette}>&#x025FC;</span>
+			</section>
 		</div>
 	);
-}
+};
 
 export default Demo;
