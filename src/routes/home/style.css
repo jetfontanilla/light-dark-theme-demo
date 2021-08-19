@@ -6,7 +6,11 @@
 
 .example {
 	width: 80%;
-	margin: 2em;
+	margin: 0.5em 2em;
 	padding: 1em 2em;
-	background: #ddd;
+	background: #eee;
+}
+
+section {
+	margin-bottom: 3.5em;
 }
