@@ -1,9 +1,9 @@
-.light {
+:global(.light) {
     color: #333;
     background: #fff;
 }
 
-.dark {
+:global(.dark) {
     color: #fff;
     background: #333;
 }

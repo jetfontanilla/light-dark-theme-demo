@@ -17,8 +17,8 @@ const App = () => {
 	}
 
 	return (
-		<div id="app" class={isDarkMode() ? style.dark : style.light}>
-			<Header toggleTheme={toggleTheme} />
+		<div id="app" class={isDarkMode() ? "dark" : "light"}>
+			<Header toggleTheme={toggleTheme} isDarkMode={isDarkMode} />
 			<Router>
 				<Home path="/" />
 				<Demo path="/demo" />

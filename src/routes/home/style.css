@@ -1,6 +1,5 @@
 .home {
-	padding: 56px 20px;
-	min-height: 100%;
+	padding: 1em 3em;
 	width: 100%;
 }
 
@@ -9,6 +8,10 @@
 	margin: 0.5em 2em;
 	padding: 1em 2em;
 	background: #eee;
+}
+
+:global(.dark) .example {
+	background: #666;
 }
 
 section {
