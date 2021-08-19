@@ -16,7 +16,10 @@ const Header = ({ toggleTheme, isDarkMode }) => (
 			<Link activeClassName={style.active} href="/demo">Demo</Link>
 			<Link activeClassName={style.active} href="/best-practice">Best Practices</Link>
 		</nav>
-		<span class={style.toggleLabel}>Night Mode</span>
+		<span class={style.toggleLabel}>
+			<span style={{fontSize: "0.8em"}}>Current Theme</span><br />
+			<strong>{isDarkMode() ? "DARK" : "LIGHT"}</strong>
+		</span>
 		<Toggle toggleTheme={toggleTheme} isDarkMode={isDarkMode} />
 	</header>
 );

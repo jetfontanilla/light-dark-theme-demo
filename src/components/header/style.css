@@ -44,7 +44,7 @@
 }
 
 :global(.dark) .header nav a {
-	color: #b7b76e;
+	color: #fafaac;
 }
 
 .header nav a:hover,
@@ -58,9 +58,10 @@
 }
 
 :global(.dark) .header nav a.active {
-	color: #f6f693;
+	color: #f8f834;
 }
 
 .toggleLabel {
-	margin: 0 0.5em 0 3em;
+	margin: 0 0.8em 0 3em;
+	text-align: center;
 }
