@@ -197,12 +197,12 @@ section {
 
 .beach__1C94U {
 	min-height: 300px;
-	background: url(/light-dark-theme-democba3146ba38d2457dd456148040fac45.png) no-repeat right;
+	background: url(/light-dark-theme-demo/cba3146ba38d2457dd456148040fac45.png) no-repeat right;
 	background-size: 450px auto;
 }
 
 .dark .beach__1C94U {
-	background-image: url(/light-dark-theme-demo5bed8bddaf21cc5043d2841a5b5671ee.png);
+	background-image: url(/light-dark-theme-demo/5bed8bddaf21cc5043d2841a5b5671ee.png);
 }
 
 .cat__2vHRK {
@@ -225,4 +225,4 @@ section {
 }
 
 
-/*# sourceMappingURL=ssr-bundle.9052e.css.map*/
+/*# sourceMappingURL=ssr-bundle.e3c1a.css.map*/
