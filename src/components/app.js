@@ -20,9 +20,9 @@ const App = () => {
 		<div id="app" class={isDarkMode() ? "dark" : "light"}>
 			<Header toggleTheme={toggleTheme} isDarkMode={isDarkMode} />
 			<Router>
-				<Home path="/" />
-				<Demo path="/demo" />
-				<BestPractice path="/best-practice" />
+				<Home path="/light-dark-theme-demo/" />
+				<Demo path="/light-dark-theme-demo/demo" />
+				<BestPractice path="/light-dark-theme-demo/best-practice" />
 			</Router>
 		</div>
 	);
