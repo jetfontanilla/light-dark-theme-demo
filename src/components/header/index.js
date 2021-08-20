@@ -11,9 +11,9 @@ const Header = ({ toggleTheme, isDarkMode }) => (
 		</a>
 		<h1>Light / Dark theme demo</h1>
 		<nav>
-			<Link activeClassName={style.active} href="/">Basics</Link>
-			<Link activeClassName={style.active} href="/demo">Demo</Link>
-			<Link activeClassName={style.active} href="/best-practice">Best Practices</Link>
+			<Link activeClassName={style.active} href="/light-dark-theme-demo">Basics</Link>
+			<Link activeClassName={style.active} href="/light-dark-theme-demo/demo">Demo</Link>
+			<Link activeClassName={style.active} href="/light-dark-theme-demo/best-practice">Best Practices</Link>
 		</nav>
 		<span class={style.toggleLabel}>
 			<span style={{fontSize: "0.8em"}}>Current Theme</span><br />
