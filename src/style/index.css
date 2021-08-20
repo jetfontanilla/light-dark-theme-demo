@@ -17,4 +17,5 @@ html, body {
 
 #app {
 	height: 100%;
+	transition: color 1s ease-in, background 2s ease-in-out;
 }

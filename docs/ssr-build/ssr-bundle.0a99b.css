@@ -17,6 +17,7 @@ html, body {
 
 #app {
 	height: 100%;
+	transition: color 1s ease-in, background 2s ease-in-out;
 }
 
 .header__3ax1h {
@@ -225,4 +226,4 @@ section {
 }
 
 
-/*# sourceMappingURL=ssr-bundle.e3c1a.css.map*/
+/*# sourceMappingURL=ssr-bundle.0a99b.css.map*/
