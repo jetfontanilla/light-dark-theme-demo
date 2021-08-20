@@ -4,9 +4,7 @@ demo for implementing Light/Dark theme using CSS prefers-color-scheme or JS
 
 made as a brown bag topic for for @englishcentral
 
-<a href="https://preactjs.com" target="_blank">
-
-</a>
+view the project in action here: https://jetfontanilla.github.io/light-dark-theme-demo/
 
 ## CLI Commands
 

@@ -1,6 +1,6 @@
 {
-  "name": "css-color-scheme",
-  "short_name": "css-color-scheme",
+  "name": "Light / Dark Theme Demo",
+  "short_name": "Light / Dark Theme Demo",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

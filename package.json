@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "preact docs",
-    "serve": "sirv docs --port 8080 --cors --single",
+    "build": "preact build --dest docs",
+    "serve": "sirv build --dest docs --port 8080 --cors --single",
     "dev": "preact watch",
     "lint": "eslint src",
     "test": "jest"
