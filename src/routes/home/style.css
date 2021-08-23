@@ -1,19 +1,19 @@
 .home {
-	padding: 1em 3em;
-	width: 100%;
+    padding: 1em 3em;
+    width: 100%;
 }
 
 .example {
-	width: 80%;
-	margin: 0.5em 2em;
-	padding: 1em 2em;
-	background: #e9e4f1;
+    width: 80%;
+    margin: 0.5em 2em;
+    padding: 1em 2em;
+    background: #e9e4f1;
 }
 
 :global(.dark) .example {
-	background: #666;
+    background: #666;
 }
 
 section {
-	margin-bottom: 3.5em;
+    margin-bottom: 3.5em;
 }

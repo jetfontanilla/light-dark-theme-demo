@@ -1,43 +1,35 @@
 .main {
-	padding: 3em;
-	width: 100%;
-}
-
-.primary {
-	color: #512e8e;
-}
-
-:global(.dark) .primary {
-	color: #f8f834;
-}
-
-.secondary {
-	color: #9b89b9;
-}
-
-:global(.dark) .secondary {
-	color: #8e73bb;
+    padding: 3em;
+    width: 100%;
 }
 
 .paletteSection {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .palette {
-	font-size: 3.5em;
+    font-size: 3.5em;
 }
 
 .beach {
-	min-height: 300px;
-	background: url(./day-bg.png) no-repeat right;
-	background-size: 450px auto;
+    min-height: 300px;
+    background: url(./day-bg.png) no-repeat right;
+    background-size: 450px auto;
 }
 
 :global(.dark) .beach {
-	background-image: url(./night-bg.png);
+    background-image: url(./night-bg.png);
 }
 
 .cat {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: left top;
+    background-image: url(./cat-white.png);
+}
 
+:global(.dark) .cat {
+    background-image: url(./cat-black.png);
 }
