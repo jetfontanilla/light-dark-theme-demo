@@ -7,7 +7,7 @@ const Demo = () => {
                 <h1 class="primary">Primary text</h1>
                 <h3 class="secondary">Secondary text</h3>
                 <p>Regular Text</p>
-				<div class={style.cat}></div>
+				<div class={style.cat} alt="kitty" />
             </section>
             <section class={style.paletteSection}>
                 <span>Color Theme Palette:</span>
